@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum neque euismod purus bibendum, vel consequat lectus gravida. Aenean sit amet nisi sit amet metus tempor ornare.
+
+                p Ut nec libero ut justo varius porttitor sed ultrices erat. Vestibulum ut sollicitudin nunc. Aliquam elit quam, vestibulum vitae vehicula ac, consequat eget nunc.
+
+                p Sed cursus lectus est, vel pharetra nulla sollicitudin eget. Donec tempor, ipsum at facilisis cursus, ex urna condimentum mauris, auctor lobortis lacus turpis ut mauris. Sed porttitor pharetra dui ut porttitor.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Sed porttitor pharetra dui ut porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Sed porttitor pharetra dui ut porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios
+                    p Sed porttitor pharetra dui ut porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

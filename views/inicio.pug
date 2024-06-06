@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de Janeiro 
+        em Aventura 
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros 
+        .row.mb-5 
+            .col-md-6 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt varius justo, ac sodales quam sagittis id. Morbi facilisis at odio in accumsan. Donec nec ex at nisi venenatis faucibus ut vel risus. Vestibulum in orci vel quam tincidunt semper sit amet a felis. Cras tempus leo non metus dapibus ultrices.
+                p Curabitur eget metus viverra, suscipit nibh ac, malesuada risus. Nam dapibus condimentum porttitor. Quisque vel efficitur massa, id lacinia massa. Etiam facilisis sit amet eros non condimentum. Maecenas vel turpis eget ante hendrerit gravida a vel libero. Donec tincidunt arcu massa, ut luctus lorem feugiat id. 
+            .col-md-6 
+                img(src="/img/inicio_nosotros.jpg", alt=" imagen nosotros", class="img-fluid")
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido
+                        h3 5% d Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo, 2024 - 28 de Marzo, 2024
+                        p.precio $2,500 USD 
+
+    .container 
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
